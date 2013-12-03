@@ -1,4 +1,4 @@
-Ext.define('App.controller.private.Demo', {
+Ext.define('app.controller.private.Demo', {
     extend: 'Ext.app.Controller',
     views: [
 
