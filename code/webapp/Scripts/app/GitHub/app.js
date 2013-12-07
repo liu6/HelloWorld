@@ -2,11 +2,11 @@ Ext.Loader.setConfig({
     enabled: true,
     disableCaching: false
 });
-Ext.Loader.setPath('Ext.ux', '..\\Scripts\\External\\ExtJS\\ux');
+//Ext.Loader.setPath('Ext.ux', '..\\Scripts\\External\\ExtJS\\ux');
 
 Ext.application({
     name: "GeekFlicks",
-    appFolder: "app",
+    appFolder: "App",
     controllers: ['Movies'],
     launch: function () {
         Ext.create('Ext.container.Viewport', {

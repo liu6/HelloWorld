@@ -1,4 +1,4 @@
-Ext.define('app.view.Demo', {
+Ext.define('App.view.Demo', {
     extend: 'Ext.grid.Panel',
     id: "movies_editor",
     alias: 'widget.movieseditor',

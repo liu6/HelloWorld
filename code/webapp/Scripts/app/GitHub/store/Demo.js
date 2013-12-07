@@ -1,6 +1,6 @@
-Ext.define('app.store.Demo', {
+Ext.define('App.store.Demo', {
     extend: 'Ext.data.Store',
-    model: 'app.mode.Demo',
+    model: 'App.mode.Demo',
     data: [{
         title: 'The Matrix',
         year: '1999'
